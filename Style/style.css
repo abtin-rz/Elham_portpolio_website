@@ -86,6 +86,10 @@ body::selection {
   font-size: 1.7rem;
 }
 
+.curtain {
+  display: none;
+}
+
 .nav-li-container {
   gap: 1.5rem;
 
@@ -295,6 +299,7 @@ body::selection {
 
   .toggle-icon {
     display: unset;
+    z-index: 100;
   }
 
   .nav-li-container {
@@ -314,20 +319,26 @@ body::selection {
     gap: 1.25rem;
     transition: 0.2s;
     transition-timing-function: ease-in;
-  }
-
-  .nav-li-container::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100dvw;
-    background: black;
-    z-index: 99;
+    z-index: 101;
   }
 
   .show-menu {
     top: 4.5rem;
+  }
+
+  .curtain {
+    display: none;
+    position: fixed;
+    top: 0rem;
+    left: 0;
+    height: 100dvh;
+    width: 100dvw;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 99;
+  }
+
+  .show-curtain {
+    display: block;
   }
 
   .nav-portfolio {
