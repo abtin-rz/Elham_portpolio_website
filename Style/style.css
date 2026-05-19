@@ -3,6 +3,21 @@
   src:
     url("../Fonts/pop/Poppins-Medium.ttf") format("TrueType");
 }
+/* 
+@keyframes crazyFontSize {
+  0% {
+    font-size: 0.82rem;
+  }
+  40% {
+    font-size: 0.85rem;
+  }
+  60% {
+    font-size: 0.85rem;
+  }
+  100% {
+    font-size: 0.82rem;
+  }
+} */
 
 * {
   margin: 0;
@@ -394,8 +409,9 @@ body::selection {
     margin: 0 1rem;
   }
 
-  .btn-gray {
-    font-size: 0.75rem;
+  .btn-gray > span {
+    font-size: 0.85rem;
+    /* animation: crazyFontSize 1.5s infinite; */
   }
 
   .btn-white {
