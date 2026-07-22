@@ -219,7 +219,7 @@ body::selection {
 .btn-white {
   flex: 1;
   font-size: 1rem;
-  color: var(--dark-gray);
+  color: var(--dark-grayportfolio);
 }
 
 .btn-gray:hover {
