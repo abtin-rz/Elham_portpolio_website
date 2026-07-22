@@ -46,7 +46,7 @@ const sectionObserver = new IntersectionObserver(
       }
     });
   },
-  { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
+  { rootMargin: "-45% 0px -50% 0px", threshold: 0 },
 );
 
 sections.forEach((section) => sectionObserver.observe(section));
@@ -63,7 +63,7 @@ const revealObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.15 }
+  { threshold: 0.15 },
 );
 
 revealEls.forEach((el) => revealObserver.observe(el));
@@ -81,6 +81,6 @@ if (contactForm) {
     const subject = encodeURIComponent(`Project inquiry from ${name}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
 
-    window.location.href = `mailto:hello@elhamhossaini.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:Elhamhossaini9900@gmail.com?subject=${subject}&body=${body}`;
   });
 }

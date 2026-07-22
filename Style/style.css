@@ -3,21 +3,6 @@
   src:
     url("../Fonts/pop/Poppins-Medium.ttf") format("TrueType");
 }
-/* 
-@keyframes crazyFontSize {
-  0% {
-    font-size: 0.82rem;
-  }
-  40% {
-    font-size: 0.85rem;
-  }
-  60% {
-    font-size: 0.85rem;
-  }
-  100% {
-    font-size: 0.82rem;
-  }
-} */
 
 * {
   margin: 0;
@@ -53,7 +38,7 @@ a {
   height: 100dvh;
   padding: 3.5rem 3rem;
   background: linear-gradient(var(--bg-1), var(--bg-2));
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
 
   display: flex;
   align-items: center;
@@ -219,7 +204,7 @@ body::selection {
 .btn-white {
   flex: 1;
   font-size: 1rem;
-  color: var(--dark-grayportfolio);
+  color: var(--dark-gray);
 }
 
 .btn-gray:hover {

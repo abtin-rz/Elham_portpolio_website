@@ -1,349 +1,456 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2C1D45" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#2C1D45"
+    />
+    <link rel="stylesheet" href="./Style/home.css" />
+    <link rel="stylesheet" href="./Fonts/icons/bootstrap-icons.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./Img/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./Img/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="shortcut icon" href="./Img/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Img/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./Img/favicon/site.webmanifest" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#2C1D45">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2C1D45">
-  <link rel="stylesheet" href="./Style/home.css" />
-  <link rel="stylesheet" href="./Fonts/icons/bootstrap-icons.css" />
-  <link rel="icon" type="image/png" href="./Img/favicon/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="./Img/favicon/favicon-16x16.png" sizes="16x16">
-  <link rel="shortcut icon" href="./Img/favicon/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="./Img/favicon/apple-touch-icon.png">
-  <link rel="manifest" href="./Img/favicon/site.webmanifest">
+    <title>Elham Hossaini — Interior Architect</title>
+  </head>
 
-  <title>Elham Hossaini — Interior Architect</title>
-</head>
+  <body>
+    <!-- ===== NAV ===== -->
+    <nav class="site-nav" id="site-nav">
+      <a class="brand" href="index.html">Elham <sup>+</sup></a>
 
-<body>
+      <div id="curtain" class="curtain"></div>
 
-  <!-- ===== NAV ===== -->
-  <nav class="site-nav" id="site-nav">
-    <a class="brand" href="#home">Elham <sup>+</sup></a>
+      <ul id="toggle-menu" class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
 
-    <div id="curtain" class="curtain"></div>
+      <a class="nav-card-link" href="index.html">
+        <i class="bi bi-person-vcard"></i>
+        Business Card
+      </a>
 
-    <ul id="toggle-menu" class="nav-links">
-      <li><a href="#home" class="nav-link">Home</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#skills" class="nav-link">Skills</a></li>
-      <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-      <li><a href="#experience" class="nav-link">Experience</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-    </ul>
+      <div id="toggle-btn" class="toggle-icon">
+        <i class="bi bi-list"></i>
+      </div>
+    </nav>
 
-    <a class="nav-card-link" href="index.html">
-      <i class="bi bi-person-vcard"></i>
-      Business Card
-    </a>
+    <!-- ===== HERO ===== -->
+    <header class="hero" id="home">
+      <div class="wrap">
+        <div class="hero-text">
+          <h2>Hi, I'm Elham Hossaini</h2>
+          <h1>INTERIOR ARCHITECT<br />&amp; <span>SPACE PLANNER</span></h1>
+          <p>
+            A graduate in Interior Architecture with internship experience and
+            strong skills in management and teamwork. Proficient in design
+            software and passionate about problem-solving and creative
+            collaboration — currently open to new design and project management
+            opportunities.
+          </p>
+          <div class="hero-actions">
+            <a href="./Portfolio/portfolio.pdf"download class="btn btn-ghost-light">
+              <i class="bi-feature bi bi-download"></i> Get Portfolio 
+            </a>
+            <a href="#contact" class="btn btn-ghost-light">Get in Touch</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong>3+</strong>
+              <span>Internships</span>
+            </div>
+            <div>
+              <strong>12</strong>
+              <span>Projects</span>
+            </div>
+            <div>
+              <strong>5</strong>
+              <span>Design Tools</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="frame">
+            <img src="./Img/El-final.webp" alt="Elham Hossaini portrait" />
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue">
+        <div class="line"></div>
+        SCROLL
+      </div>
+    </header>
 
-    <div id="toggle-btn" class="toggle-icon">
-      <i class="bi bi-list"></i>
-    </div>
-  </nav>
+    <!-- ===== ABOUT ===== -->
+    <section class="about card" id="about">
+      <div class="section-head wrap reveal">
+        <h3>
+          Designing interiors that <span>work</span> as well as they look.
+        </h3>
+      </div>
+      <div class="wrap reveal">
+        <div class="about-img">
+          <div class="photo-frame blueprint-frame">
+            <img src="./Img/El-final.webp" alt="Elham Hossaini at work" />
+          </div>
+        </div>
+        <div class="about-body">
+          <p>
+            My work sits at the intersection of interior architecture and space
+            planning — turning a client's brief into layouts, material palettes
+            and details that hold up in daily use, not just in renderings.
+          </p>
+          <p>
+            Through internships and academic projects I've learned to move
+            between the creative and the practical sides of a project: concept
+            sketches, technical drawings, site coordination and working closely
+            with teams to keep a project on track from first idea to handover.
+          </p>
+          <div class="fact-grid">
+            <div>
+              <span>Focus</span>
+              <strong>Residential &amp; commercial interiors</strong>
+            </div>
+            <div>
+              <span>Education</span>
+              <strong>B.A. Interior Architecture</strong>
+            </div>
+            <div>
+              <span>Strengths</span>
+              <strong>Project management, teamwork</strong>
+            </div>
+            <div>
+              <span>Status</span>
+              <strong>Open to new opportunities</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- ===== HERO ===== -->
-  <header class="hero" id="home">
-    <div class="wrap">
-      <div class="hero-text">
-        <span class="eyebrow">Portfolio — Sheet A—01</span>
-        <h2>Hi, I'm Elham Hossaini</h2>
-        <h1>INTERIOR ARCHITECT<br>&amp; <span>SPACE PLANNER</span></h1>
+    <!-- ===== SKILLS ===== -->
+    <section class="skills card" id="skills">
+      <div class="section-head wrap reveal">
+        <h3>Software &amp; <span>skills</span></h3>
         <p>
-          A graduate in Interior Architecture with internship experience and
-          strong skills in management and teamwork. Proficient in design
-          software and passionate about problem-solving and creative
-          collaboration — currently open to new design and project
-          management opportunities.
+          The tools I use to take a project from sketch to construction-ready
+          drawing.
         </p>
-        <div class="hero-actions">
-          <a href="#portfolio" class="btn btn-ghost-light">
-            View Portfolio <i class="bi bi-arrow-right"></i>
-          </a>
-          <a href="#contact" class="btn btn-ghost-light">Get in Touch</a>
-        </div>
-        <div class="hero-stats">
-          <div>
-            <strong>3+</strong>
-            <span>Internships</span>
+      </div>
+      <div class="wrap reveal">
+        <div class="tool-grid">
+          <div class="tool-card">
+            <div class="top">
+              <i class="bi bi-rulers"></i>
+              <h4>AutoCAD</h4>
+            </div>
+            <p>Technical drawings and construction documentation.</p>
+            <div class="tick-scale">
+              <i class="on"></i><i class="on"></i><i class="on"></i
+              ><i class="on"></i><i></i>
+            </div>
           </div>
-          <div>
-            <strong>12</strong>
-            <span>Projects</span>
+          <div class="tool-card">
+            <div class="top">
+              <i class="bi bi-box"></i>
+              <h4>SketchUp</h4>
+            </div>
+            <p>Fast 3D massing and interior spatial studies.</p>
+            <div class="tick-scale">
+              <i class="on"></i><i class="on"></i><i class="on"></i
+              ><i class="on"></i><i></i>
+            </div>
           </div>
-          <div>
-            <strong>5</strong>
-            <span>Design Tools</span>
+          <div class="tool-card">
+            <div class="top">
+              <i class="bi bi-lightbulb"></i>
+              <h4>3ds Max</h4>
+            </div>
+            <p>Photoreal renders and material studies.</p>
+            <div class="tick-scale">
+              <i class="on"></i><i class="on"></i><i class="on"></i><i></i
+              ><i></i>
+            </div>
+          </div>
+          <div class="tool-card">
+            <div class="top">
+              <i class="bi bi-palette2"></i>
+              <h4>Photoshop</h4>
+            </div>
+            <p>Presentation boards, moodboards and post-production.</p>
+            <div class="tick-scale">
+              <i class="on"></i><i class="on"></i><i class="on"></i
+              ><i class="on"></i><i></i>
+            </div>
+          </div>
+          <div class="tool-card">
+            <div class="top">
+              <i class="bi bi-people-fill"></i>
+              <h4>Project Management</h4>
+            </div>
+            <p>Coordinating timelines, vendors and site teams.</p>
+            <div class="tick-scale">
+              <i class="on"></i><i class="on"></i><i class="on"></i
+              ><i class="on"></i><i></i>
+            </div>
+          </div>
+          <div class="tool-card">
+            <div class="top">
+              <i class="bi bi-layers-fill"></i>
+              <h4>Material Detailing</h4>
+            </div>
+            <p>Finish schedules and material specification.</p>
+            <div class="tick-scale">
+              <i class="on"></i><i class="on"></i><i class="on"></i><i></i
+              ><i></i>
+            </div>
           </div>
         </div>
       </div>
-      <div class="hero-img">
-        <div class="frame">
-          <img src="./Img/El-final.webp" alt="Elham Hossaini portrait" />
-        </div>
-      </div>
-    </div>
-    <div class="scroll-cue">
-      <div class="line"></div>
-      SCROLL
-    </div>
-  </header>
+    </section>
 
-  <!-- ===== ABOUT ===== -->
-  <section class="about" id="about">
-    <div class="section-head wrap reveal">
-      <span class="eyebrow">Sheet A—02 / About</span>
-      <h3>Designing interiors that <span>work</span> as well as they look.</h3>
-    </div>
-    <div class="wrap reveal">
-      <div class="about-img">
-        <div class="photo-frame blueprint-frame">
-          <img src="./Img/El-final.webp" alt="Elham Hossaini at work" />
-        </div>
-      </div>
-      <div class="about-body">
+    <!-- ===== PROCESS ===== -->
+    <section class="process card" id="process">
+      <div class="section-head wrap reveal">
+        <h3>How a project <span>moves</span> forward</h3>
         <p>
-          My work sits at the intersection of interior architecture and
-          space planning — turning a client's brief into layouts, material
-          palettes and details that hold up in daily use, not just in
-          renderings.
+          The three phases every project goes through, from first conversation
+          to final walkthrough.
         </p>
+      </div>
+      <div class="wrap reveal">
+        <div class="process-steps">
+          <div class="process-step">
+            <span class="num">01 — Concept</span>
+            <h4>Brief &amp; Concept</h4>
+            <p>
+              Understanding how the space needs to be used, then translating
+              that into an initial spatial concept.
+            </p>
+          </div>
+          <div class="process-step">
+            <span class="num">02 — Design</span>
+            <h4>Design Development</h4>
+            <p>
+              Layouts, material palettes and 3D visuals refined together with
+              the client until the direction is locked.
+            </p>
+          </div>
+          <div class="process-step">
+            <span class="num">03 — Execution</span>
+            <h4>Documentation &amp; Handover</h4>
+            <p>
+              Construction drawings, site coordination and a final walkthrough
+              before handover.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section class="portfolio card" id="portfolio">
+      <div class="section-head wrap reveal">
+        <h3>A few <span>projects</span></h3>
         <p>
-          Through internships and academic projects I've learned to move
-          between the creative and the practical sides of a project:
-          concept sketches, technical drawings, site coordination and
-          working closely with teams to keep a project on track from first
-          idea to handover.
+          A selection of academic and internship projects. Replace these with
+          real project photography.
         </p>
-        <div class="fact-grid">
-          <div>
-            <span>Focus</span>
-            <strong>Residential &amp; commercial interiors</strong>
+      </div>
+      <div class="wrap reveal">
+        <div class="project-grid">
+          <article class="project-card blueprint-frame">
+            <div class="project-thumb">
+              <span class="project-tag">Residential</span>
+              <i class="bi bi-house-door"></i>
+            </div>
+            <div class="project-body">
+              <span class="num">PRJ — 01</span>
+              <h4>Apartment Interior Concept</h4>
+              <p>
+                Full interior layout and material palette for a compact city
+                apartment.
+              </p>
+            </div>
+          </article>
+          <article class="project-card blueprint-frame">
+            <div class="project-thumb">
+              <span class="project-tag">Commercial</span>
+              <i class="bi bi-building"></i>
+            </div>
+            <div class="project-body">
+              <span class="num">PRJ — 02</span>
+              <h4>Boutique Retail Fit-out</h4>
+              <p>
+                Space planning and lighting concept for a small retail unit.
+              </p>
+            </div>
+          </article>
+          <article class="project-card blueprint-frame">
+            <div class="project-thumb">
+              <span class="project-tag">Concept</span>
+              <i class="bi bi-lamp"></i>
+            </div>
+            <div class="project-body">
+              <span class="num">PRJ — 03</span>
+              <h4>Co-working Lounge Study</h4>
+              <p>
+                A flexible shared-workspace concept exploring modular furniture.
+              </p>
+            </div>
+          </article>
+          <article class="project-card blueprint-frame">
+            <div class="project-thumb">
+              <span class="project-tag">Residential</span>
+              <i class="bi bi-door-open"></i>
+            </div>
+            <div class="project-body">
+              <span class="num">PRJ — 04</span>
+              <h4>Family Home Renovation</h4>
+              <p>
+                Renovation concept balancing existing structure with new
+                open-plan living.
+              </p>
+            </div>
+          </article>
+        </div>
+        <p class="portfolio-note">More projects available on request.</p>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="experience card" id="experience">
+      <div class="section-head wrap reveal">
+        <h3>Education &amp; <span>experience</span></h3>
+      </div>
+      <div class="wrap reveal">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="num">EXP — 03</span>
+            <h4>Design Intern</h4>
+            <span class="meta">Interior Design Studio</span>
+            <p>
+              Supported concept development, material boards and technical
+              drawings across residential and commercial projects.
+            </p>
           </div>
-          <div>
-            <span>Education</span>
-            <strong>B.A. Interior Architecture</strong>
+          <div class="timeline-item">
+            <span class="num">EXP — 02</span>
+            <h4>Design Assistant</h4>
+            <span class="meta">Commercial Fit-out Project</span>
+            <p>
+              Coordinated with contractors and vendors on site, tracking
+              timelines and finish specifications.
+            </p>
           </div>
-          <div>
-            <span>Strengths</span>
-            <strong>Project management, teamwork</strong>
-          </div>
-          <div>
-            <span>Status</span>
-            <strong>Open to new opportunities</strong>
+          <div class="timeline-item">
+            <span class="num">EXP — 01</span>
+            <h4>B.A. Interior Architecture</h4>
+            <span class="meta">Graduate</span>
+            <p>
+              Coursework spanning spatial design, construction detailing, and
+              design software.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== SKILLS ===== -->
-  <section class="skills" id="skills">
-    <div class="section-head wrap reveal">
-      <span class="eyebrow">Sheet A—03 / Tools</span>
-      <h3>Software &amp; <span>skills</span></h3>
-      <p>The tools I use to take a project from sketch to construction-ready drawing.</p>
-    </div>
-    <div class="wrap reveal">
-      <div class="tool-grid">
-        <div class="tool-card">
-          <div class="top"><i class="bi bi-rulers"></i><h4>AutoCAD</h4></div>
-          <p>Technical drawings and construction documentation.</p>
-          <div class="tick-scale"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="contact-info">
+          <h3>Let's design something together.</h3>
+          <p>
+            Open to new roles, internships and collaborations in interior
+            architecture and space design.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <i class="bi bi-envelope-fill"></i>
+              <a
+                href="mailto:Elhamhossaini9900@gmail.com?subject=I have a consultation request."
+                >Elhamhossaini9900@gmail.com</a
+              >
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill"></i>
+              <a href="tel:+989032716820">+98 9032716820</a>
+            </li>
+            <li><i class="bi bi-geo-alt-fill"></i> Available for relocation</li>
+          </ul>
+          <div class="contact-social">
+            <a href="https://www.instagram.com/Elhamhosseni__" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="sms:+989032716820"><i class="bi bi-envelope-fill"></i></a>
+          </div>
         </div>
-        <div class="tool-card">
-          <div class="top"><i class="bi bi-box"></i><h4>SketchUp</h4></div>
-          <p>Fast 3D massing and interior spatial studies.</p>
-          <div class="tick-scale"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-        </div>
-        <div class="tool-card">
-          <div class="top"><i class="bi bi-lightbulb"></i><h4>3ds Max</h4></div>
-          <p>Photoreal renders and material studies.</p>
-          <div class="tick-scale"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-        </div>
-        <div class="tool-card">
-          <div class="top"><i class="bi bi-palette2"></i><h4>Photoshop</h4></div>
-          <p>Presentation boards, moodboards and post-production.</p>
-          <div class="tick-scale"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-        </div>
-        <div class="tool-card">
-          <div class="top"><i class="bi bi-people-fill"></i><h4>Project Management</h4></div>
-          <p>Coordinating timelines, vendors and site teams.</p>
-          <div class="tick-scale"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-        </div>
-        <div class="tool-card">
-          <div class="top"><i class="bi bi-layers-fill"></i><h4>Material Detailing</h4></div>
-          <p>Finish schedules and material specification.</p>
-          <div class="tick-scale"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Tell me about your project"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-ghost-light">
+            Send Message
+          </button>
+          <p class="form-note">Opens your email client — no data is stored.</p>
+        </form>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== PROCESS ===== -->
-  <section class="process" id="process">
-    <div class="section-head wrap reveal">
-      <span class="eyebrow">Sheet A—04 / Process</span>
-      <h3>How a project <span>moves</span> forward</h3>
-      <p>The three phases every project goes through, from first conversation to final walkthrough.</p>
-    </div>
-    <div class="wrap reveal">
-      <div class="process-steps">
-        <div class="process-step">
-          <span class="num">01 — Concept</span>
-          <h4>Brief &amp; Concept</h4>
-          <p>Understanding how the space needs to be used, then translating that into an initial spatial concept.</p>
-        </div>
-        <div class="process-step">
-          <span class="num">02 — Design</span>
-          <h4>Design Development</h4>
-          <p>Layouts, material palettes and 3D visuals refined together with the client until the direction is locked.</p>
-        </div>
-        <div class="process-step">
-          <span class="num">03 — Execution</span>
-          <h4>Documentation &amp; Handover</h4>
-          <p>Construction drawings, site coordination and a final walkthrough before handover.</p>
-        </div>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="wrap">
+        <a href="#"> Designed by <span>Abtin</span> </a>
+        <a href="#home" class="to-top"
+          ><i class="bi bi-arrow-up"></i> Back to top</a
+        >
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- ===== PORTFOLIO ===== -->
-  <section class="portfolio" id="portfolio">
-    <div class="section-head wrap reveal">
-      <span class="eyebrow">Sheet A—05 / Selected Work</span>
-      <h3>A few <span>projects</span></h3>
-      <p>A selection of academic and internship projects. Replace these with real project photography.</p>
-    </div>
-    <div class="wrap reveal">
-      <div class="project-grid">
-        <article class="project-card blueprint-frame">
-          <div class="project-thumb">
-            <span class="project-tag">Residential</span>
-            <i class="bi bi-house-door"></i>
-          </div>
-          <div class="project-body">
-            <span class="num">PRJ — 01</span>
-            <h4>Apartment Interior Concept</h4>
-            <p>Full interior layout and material palette for a compact city apartment.</p>
-          </div>
-        </article>
-        <article class="project-card blueprint-frame">
-          <div class="project-thumb">
-            <span class="project-tag">Commercial</span>
-            <i class="bi bi-building"></i>
-          </div>
-          <div class="project-body">
-            <span class="num">PRJ — 02</span>
-            <h4>Boutique Retail Fit-out</h4>
-            <p>Space planning and lighting concept for a small retail unit.</p>
-          </div>
-        </article>
-        <article class="project-card blueprint-frame">
-          <div class="project-thumb">
-            <span class="project-tag">Concept</span>
-            <i class="bi bi-lamp"></i>
-          </div>
-          <div class="project-body">
-            <span class="num">PRJ — 03</span>
-            <h4>Co-working Lounge Study</h4>
-            <p>A flexible shared-workspace concept exploring modular furniture.</p>
-          </div>
-        </article>
-        <article class="project-card blueprint-frame">
-          <div class="project-thumb">
-            <span class="project-tag">Residential</span>
-            <i class="bi bi-door-open"></i>
-          </div>
-          <div class="project-body">
-            <span class="num">PRJ — 04</span>
-            <h4>Family Home Renovation</h4>
-            <p>Renovation concept balancing existing structure with new open-plan living.</p>
-          </div>
-        </article>
-      </div>
-      <p class="portfolio-note">More projects available on request.</p>
-    </div>
-  </section>
-
-  <!-- ===== EXPERIENCE ===== -->
-  <section class="experience" id="experience">
-    <div class="section-head wrap reveal">
-      <span class="eyebrow">Sheet A—06 / Experience</span>
-      <h3>Education &amp; <span>experience</span></h3>
-    </div>
-    <div class="wrap reveal">
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="num">EXP — 03</span>
-          <h4>Design Intern</h4>
-          <span class="meta">Interior Design Studio</span>
-          <p>Supported concept development, material boards and technical drawings across residential and commercial projects.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="num">EXP — 02</span>
-          <h4>Design Assistant</h4>
-          <span class="meta">Commercial Fit-out Project</span>
-          <p>Coordinated with contractors and vendors on site, tracking timelines and finish specifications.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="num">EXP — 01</span>
-          <h4>B.A. Interior Architecture</h4>
-          <span class="meta">Graduate</span>
-          <p>Coursework spanning spatial design, construction detailing, and design software.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <div class="contact-info">
-        <span class="eyebrow">Sheet A—07 / Contact</span>
-        <h3>Let's design something together.</h3>
-        <p>Open to new roles, internships and collaborations in interior architecture and space design.</p>
-        <ul class="contact-list">
-          <li><i class="bi bi-envelope-fill"></i> hello@elhamhossaini.com</li>
-          <li><i class="bi bi-telephone-fill"></i> +00 000 000 0000</li>
-          <li><i class="bi bi-geo-alt-fill"></i> Available for relocation</li>
-        </ul>
-        <div class="contact-social">
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
-          <a href="#"><i class="bi bi-envelope-fill"></i></a>
-        </div>
-      </div>
-      <form class="contact-form" id="contact-form">
-        <div class="field">
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Your name" required />
-        </div>
-        <div class="field">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="you@example.com" required />
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" placeholder="Tell me about your project"></textarea>
-        </div>
-        <button type="submit" class="btn btn-ghost-light">Send Message</button>
-        <p class="form-note">Opens your email client — no data is stored.</p>
-      </form>
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer>
-    <div class="wrap">
-      <a href="#"> Designed by <span>Abtin</span> </a>
-      <a href="#home" class="to-top"><i class="bi bi-arrow-up"></i> Back to top</a>
-    </div>
-  </footer>
-
-  <script src="./Js/home.js"></script>
-</body>
-
+    <script src="./Js/home.js"></script>
+  </body>
 </html>
